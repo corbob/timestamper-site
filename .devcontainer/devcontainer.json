@@ -1,0 +1,40 @@
+{
+	"name": "Hugo Extended",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {
+				"html.format.templating": true
+			},
+
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"bungcip.better-toml",
+				"davidanson.vscode-markdownlint",
+				"shardulm94.trailing-spaces",
+				"nhoizey.gremlins",
+				"streetsidesoftware.code-spell-checker",
+				"bierner.emojisense",
+				"marvhen.reflow-markdown",
+				"redhat.vscode-yaml"
+			]
+		}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		1313
+	],
+
+	// Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "node",
+	"features": {
+		"ghcr.io/devcontainers/features/hugo:1": {
+			"extended": true
+		},
+		"ghcr.io/devcontainers/features/go:1": {}
+	}
+}

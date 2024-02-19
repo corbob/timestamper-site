@@ -1,5 +1,5 @@
-# Local Netlify folder
-.netlify
-
-# Package Files
+.DS_Store
+desktop.ini
+public/
 node_modules/
+.hugo_build.lock
