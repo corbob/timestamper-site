@@ -48,3 +48,5 @@ New-Alias git timestamper
 
 zsh (and I'm sure other shells) also allow you to set up aliases.
 Add this line to your `.zshrc` file to wrap `git` output: `alias git="timestamper /usr/local/bin/git"`
+
+<script data-goatcounter="https://timestamper.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
